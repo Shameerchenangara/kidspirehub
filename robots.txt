@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://<your-username>.github.io/kidspirehub/sitemap.xml
