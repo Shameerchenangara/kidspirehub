@@ -1,0 +1,29 @@
+:root{
+  --coral:#f28c8c;
+  --teal:#2ea9a1;
+  --brown:#4a3b34;
+  --bg:#fffaf7;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Nunito',system-ui,Segoe UI,Arial;background:var(--bg);color:var(--brown)}
+.container{max-width:1000px;margin:0 auto;padding:16px}
+header{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;text-decoration:none;color:var(--brown);font-weight:700;font-size:1.1rem}
+.brand img{height:40px;width:auto;margin-right:8px}
+nav a{margin:0 8px;text-decoration:none;color:var(--brown)}
+nav .cta{padding:8px 12px;border:2px solid var(--teal);border-radius:8px}
+.hero{text-align:center;padding:40px 0}
+.hero h1{font-size:2rem;margin:0 0 8px;color:var(--teal)}
+.badges span{display:inline-block;margin:4px 6px;padding:6px 10px;background:#fff;border:1px solid #eee;border-radius:999px}
+.actions{margin:16px 0}
+.btn{display:inline-block;margin:6px;padding:10px 14px;border-radius:8px;border:2px solid var(--brown);color:var(--brown);text-decoration:none}
+.btn.primary{background:var(--teal);color:white;border-color:var(--teal)}
+.hours{opacity:.8}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+article{background:#fff;border:1px solid #eee;border-radius:12px;padding:16px}
+.pickup{text-align:center}
+footer{border-top:1px solid #eee;margin-top:24px;padding-top:16px;text-align:center;font-size:.95rem}
+form{display:grid;gap:12px;max-width:520px}
+input,textarea{width:100%;padding:10px;border:1px solid #ddd;border-radius:8px;font-family:inherit}
+button.btn{cursor:pointer}
+@media (max-width:640px){.hero h1{font-size:1.6rem}}
